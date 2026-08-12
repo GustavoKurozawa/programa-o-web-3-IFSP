@@ -4,6 +4,6 @@ Repositório criado para armazenar e organizar todos os trabalhos, exercícios e
 
 ---
 
-## 👤 Autor
+## Autor
 
 * **Gustavo Kurozawa**
