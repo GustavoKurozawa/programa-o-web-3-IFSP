@@ -87,7 +87,7 @@ public class CadastroDeAluno {
             em.getTransaction().begin();
             dao.cadastrar(aluno);
             em.getTransaction().commit();
-            System.out.println("✓ Aluno cadastrado com sucesso! ID gerado: " + aluno.getId());
+            System.out.println("Aluno cadastrado com sucesso! ID gerado: " + aluno.getId());
         } catch (Exception e) {
             if (em.getTransaction().isActive()) {
                 em.getTransaction().rollback();
